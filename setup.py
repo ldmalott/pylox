@@ -7,7 +7,8 @@ setup(
     author="Levi Malott",
     entry_points = {
         'console_scripts': [
-            'pylox=pylox.lox:lox'
+            'pylox=pylox.lox:lox',
+            'generate-ast=pylox.tools.generate_ast:generate_ast'
         ]
     }
 )
